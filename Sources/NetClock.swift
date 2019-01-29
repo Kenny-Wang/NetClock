@@ -24,7 +24,7 @@ public typealias AnnotatedTime = (
 /// // (... later on ...)
 /// print(Clock.now)
 /// ```
-public struct Clock {
+public struct NetClock {
     private static var stableTime: TimeFreeze? {
         didSet {
             self.storage.stableTime = self.stableTime

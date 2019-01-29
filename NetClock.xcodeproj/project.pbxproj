@@ -32,10 +32,10 @@
 		8652E73B21FA4E1300AAD320 /* Data+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72121FA4E1300AAD320 /* Data+Bytes.swift */; };
 		8652E73C21FA4E1300AAD320 /* Data+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72121FA4E1300AAD320 /* Data+Bytes.swift */; };
 		8652E73D21FA4E1400AAD320 /* Data+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72121FA4E1300AAD320 /* Data+Bytes.swift */; };
-		8652E73E21FA4E1400AAD320 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72221FA4E1300AAD320 /* Clock.swift */; };
-		8652E73F21FA4E1400AAD320 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72221FA4E1300AAD320 /* Clock.swift */; };
-		8652E74021FA4E1400AAD320 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72221FA4E1300AAD320 /* Clock.swift */; };
-		8652E74121FA4E1400AAD320 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72221FA4E1300AAD320 /* Clock.swift */; };
+		8652E73E21FA4E1400AAD320 /* NetClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72221FA4E1300AAD320 /* NetClock.swift */; };
+		8652E73F21FA4E1400AAD320 /* NetClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72221FA4E1300AAD320 /* NetClock.swift */; };
+		8652E74021FA4E1400AAD320 /* NetClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72221FA4E1300AAD320 /* NetClock.swift */; };
+		8652E74121FA4E1400AAD320 /* NetClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72221FA4E1300AAD320 /* NetClock.swift */; };
 		8652E74221FA4E1400AAD320 /* DNSResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72321FA4E1300AAD320 /* DNSResolver.swift */; };
 		8652E74321FA4E1400AAD320 /* DNSResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72321FA4E1300AAD320 /* DNSResolver.swift */; };
 		8652E74421FA4E1400AAD320 /* DNSResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8652E72321FA4E1300AAD320 /* DNSResolver.swift */; };
@@ -91,7 +91,7 @@
 		8652E71F21FA4E1300AAD320 /* TimeStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeStorage.swift; sourceTree = "<group>"; };
 		8652E72021FA4E1300AAD320 /* NTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPClient.swift; sourceTree = "<group>"; };
 		8652E72121FA4E1300AAD320 /* Data+Bytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Bytes.swift"; sourceTree = "<group>"; };
-		8652E72221FA4E1300AAD320 /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		8652E72221FA4E1300AAD320 /* NetClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetClock.swift; sourceTree = "<group>"; };
 		8652E72321FA4E1300AAD320 /* DNSResolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSResolver.swift; sourceTree = "<group>"; };
 		8652E72421FA4E1300AAD320 /* InternetAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetAddress.swift; sourceTree = "<group>"; };
 		8652E72521FA4E1300AAD320 /* NTPPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTPPacket.swift; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 		8933C7811EB5B7E0000D00A4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8652E72221FA4E1300AAD320 /* Clock.swift */,
+				8652E72221FA4E1300AAD320 /* NetClock.swift */,
 				8652E72121FA4E1300AAD320 /* Data+Bytes.swift */,
 				8652E72321FA4E1300AAD320 /* DNSResolver.swift */,
 				8652E72421FA4E1300AAD320 /* InternetAddress.swift */,
@@ -409,7 +409,7 @@
 					};
 					52D6D9851BEFF229002C0205 = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 					52D6D9E11BEFFF6E002C0205 = {
 						CreatedOnToolsVersion = 7.1;
@@ -518,7 +518,7 @@
 				8652E74621FA4E1400AAD320 /* InternetAddress.swift in Sources */,
 				8652E72E21FA4E1300AAD320 /* TimeFreeze.swift in Sources */,
 				8652E74221FA4E1400AAD320 /* DNSResolver.swift in Sources */,
-				8652E73E21FA4E1400AAD320 /* Clock.swift in Sources */,
+				8652E73E21FA4E1400AAD320 /* NetClock.swift in Sources */,
 				8652E74A21FA4E1400AAD320 /* NTPPacket.swift in Sources */,
 				8652E72621FA4E1300AAD320 /* NTPProtocol.swift in Sources */,
 				8652E72A21FA4E1300AAD320 /* NSTimer+ClosureKit.swift in Sources */,
@@ -543,7 +543,7 @@
 				8652E74821FA4E1400AAD320 /* InternetAddress.swift in Sources */,
 				8652E73021FA4E1300AAD320 /* TimeFreeze.swift in Sources */,
 				8652E74421FA4E1400AAD320 /* DNSResolver.swift in Sources */,
-				8652E74021FA4E1400AAD320 /* Clock.swift in Sources */,
+				8652E74021FA4E1400AAD320 /* NetClock.swift in Sources */,
 				8652E74C21FA4E1400AAD320 /* NTPPacket.swift in Sources */,
 				8652E72821FA4E1300AAD320 /* NTPProtocol.swift in Sources */,
 				8652E72C21FA4E1300AAD320 /* NSTimer+ClosureKit.swift in Sources */,
@@ -560,7 +560,7 @@
 				8652E74921FA4E1400AAD320 /* InternetAddress.swift in Sources */,
 				8652E73121FA4E1300AAD320 /* TimeFreeze.swift in Sources */,
 				8652E74521FA4E1400AAD320 /* DNSResolver.swift in Sources */,
-				8652E74121FA4E1400AAD320 /* Clock.swift in Sources */,
+				8652E74121FA4E1400AAD320 /* NetClock.swift in Sources */,
 				8652E74D21FA4E1400AAD320 /* NTPPacket.swift in Sources */,
 				8652E72921FA4E1300AAD320 /* NTPProtocol.swift in Sources */,
 				8652E72D21FA4E1300AAD320 /* NSTimer+ClosureKit.swift in Sources */,
@@ -577,7 +577,7 @@
 				8652E74721FA4E1400AAD320 /* InternetAddress.swift in Sources */,
 				8652E72F21FA4E1300AAD320 /* TimeFreeze.swift in Sources */,
 				8652E74321FA4E1400AAD320 /* DNSResolver.swift in Sources */,
-				8652E73F21FA4E1400AAD320 /* Clock.swift in Sources */,
+				8652E73F21FA4E1400AAD320 /* NetClock.swift in Sources */,
 				8652E74B21FA4E1400AAD320 /* NTPPacket.swift in Sources */,
 				8652E72721FA4E1300AAD320 /* NTPProtocol.swift in Sources */,
 				8652E72B21FA4E1300AAD320 /* NSTimer+ClosureKit.swift in Sources */,
@@ -752,7 +752,7 @@
 				PRODUCT_NAME = NetClock;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -774,7 +774,7 @@
 				PRODUCT_NAME = NetClock;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -788,7 +788,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NetClock.NetClock-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -802,7 +802,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NetClock.NetClock-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
